@@ -21,7 +21,6 @@ alias pamcan pacman
 alias ls 'eza --icons'
 alias clear "printf '\033[2J\033[3J\033[1;1H'"
 alias q 'qs -c ii'
-    
 
 # function fish_prompt
 #   set_color cyan; echo (pwd)
@@ -44,3 +43,12 @@ function rm
     end
     trash-put $argv
 end
+
+alias doom='/home/acomage/.config/emacs/bin/doom'
+
+alias ghc='/home/acomage/.ghcup/bin/ghc'
+alias cabal='/home/acomage/.ghcup/bin/cabal'
+alias stack='/home/acomage/.ghcup/bin/stack'
+
+alias agda='/home/acomage/.local/bin/agda'
+alias agda-mode='/home/acomage/.local/bin/agda-mode'
