@@ -22,8 +22,3 @@ end
 
 # set PATH of Doom emacs
 # alias doom="/home/acomage/.config/emacs/bin/doom"
-# set PATH of rust-analyzer
-set -x PATH $PATH ~/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin
-
-# use wayland for electron
-export ELECTRON_OZONE_PLATFORM_HINT=auto
