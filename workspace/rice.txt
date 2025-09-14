@@ -1,0 +1,51 @@
+tldr update
+hyprland install
+hyprland config
+sddm install
+sddm config
+sddm enable
+kitty install
+wl-clipboard install
+dolphin install
+kde-connect install
+kde-connect config ufw
+hiddify install
+vim config
+fuzzel install
+fuzzel config
+swaync install
+archlinuxcn add
+ttf-maplemononormal-nf-cn install
+xdg-desktop-portal-hyprland install
+hyprpolkitagent install
+hyprpolkitagent config
+qt5-wayland qt6-wayland install
+neovim-git install
+keyd install
+waybar install
+waybar config
+hyprpicker install
+wlogout install
+wlogout config
+kitty config
+kde systemsettings config install
+fcitx5-im fcitx5-chinese-addons fcitx5-pinyin-zhwiki install
+nodejs npm install
+lazygit install
+tree-sitter-cli install
+luarocks lua51 install
+fish config
+trash-cli install
+zoxide install
+plasma-nm install
+grimblast install
+hyprpaper install
+hypridle install
+hyprlock install
+hyprsunset install
+gwenview install
+ark install
+zathura zathura-pdf-mupdf install
+cliphist install
+adw-gtk-theme install config (run <gsettings set org.gnome.desktop.interface gtk-theme 'adw-gtk3-dark' && gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'>)
+quickshell install
