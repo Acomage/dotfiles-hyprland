@@ -15,6 +15,7 @@
   "modules-right": [
     "network",
     "tray",
+    "pulseaudio",
     "custom/notification",
     "custom/colorpicker",
     "custom/session"
@@ -60,6 +61,17 @@
     "icon-size": 18,
     "spacing": 8
   },
+
+  "pulseaudio": {
+    "format": " {volume}%",
+    "format-muted": " muted",
+    "scroll-step": 5,
+    "on-click": "pavucontrol",
+    "on-click-right": "pamixer -t",
+    "tooltip": true
+  },
+
+
   "custom/notification": {
     "tooltip": false,
     "format": "{icon}",
