@@ -3,14 +3,16 @@ source /usr/share/cachyos-fish-config/cachyos-config.fish
 function fish_greeting
 end
 
-alias n="nvim"
-alias c="clear"
+abbr n nvim
+abbr c clear
 
 export EDITOR=nvim
 
-zoxide init fish | source
+zoxide init fish --cmd cd | source
 
-alias rm_unsafe='/bin/rm'
+abbr z cd
+
+abbr rm_unsafe /bin/rm
 
 function rm
     if test (count $argv) -eq 0
