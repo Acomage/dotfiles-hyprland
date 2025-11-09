@@ -1,7 +1,9 @@
-source /usr/share/cachyos-fish-config/cachyos-config.fish
+# source /usr/share/cachyos-fish-config/cachyos-config.fish
 
-function fish_greeting
-end
+# function fish_greeting
+# end
+
+abbr update "sudo pacman -Syu"
 
 abbr n nvim
 abbr c clear
@@ -21,6 +23,8 @@ function rm
     end
     trash-put $argv
 end
+
+alias proxy="export all_proxy=127.0.0.1:12334;export http_proxy=127.0.0.1:12334;export https_proxy=127.0.0.1:12334"
 
 # set PATH of Doom emacs
 # alias doom="/home/acomage/.config/emacs/bin/doom"

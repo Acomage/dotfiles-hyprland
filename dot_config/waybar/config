@@ -18,6 +18,7 @@
     "pulseaudio",
     "custom/notification",
     "custom/colorpicker",
+    "idle_inhibitor",
     "custom/session"
   ],
   "hyprland/window": {
@@ -96,6 +97,16 @@
     "format": "",
     "on-click": "hyprpicker -a",
     "tooltip": "Pick a color"
+  },
+  "idle_inhibitor": {
+    "format": "{icon}",
+    "format-icons": {
+      "activated": "󰅶",
+      "deactivated": "󰾪"
+    },
+    "tooltip": true,
+    "tooltip-format": "Idle inhibitor: {status}",
+    "on-click": "hyprctl dispatch exec swayidle toggle"
   },
   "custom/session": {
     "format": "",

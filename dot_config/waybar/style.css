@@ -71,6 +71,7 @@ window#waybar {
 }
 
 #window,
+#idle_inhibitor,
 #custom-session,
 #custom-notification,
 #custom-colorpicker {
