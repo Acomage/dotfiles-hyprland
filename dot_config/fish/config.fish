@@ -3,6 +3,10 @@
 # function fish_greeting
 # end
 
+alias ls="eza --icons"
+alias ll="eza -la --group-directories-first --icons"
+alias lt="eza -aT --group-directories-first --icons --ignore-glob=".git""
+
 abbr update "sudo pacman -Syu"
 
 abbr n nvim
