@@ -50,7 +50,8 @@
     }
   },
   "clock": {
-    "format": "  {:%H:%M  %a, %d %b}"
+    "format": "  {:L%H:%M %a %b%d日}",
+    "locale" : "zh_CN.UTF-8"
   },
   "network": {
     "format-wifi": " {essid} ↓{bandwidthDownBytes} ↑{bandwidthUpBytes}",
