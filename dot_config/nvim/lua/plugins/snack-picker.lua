@@ -5,6 +5,9 @@ return {
       layout = {
         preset = "telescope",
       },
+      sources = {
+        explorer = { hidden = false, ignored = true, exclude = { "**/.git", "**/.cache" } },
+      },
     },
   },
 }
