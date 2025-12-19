@@ -1,7 +1,7 @@
 # source /usr/share/cachyos-fish-config/cachyos-config.fish
 
-# function fish_greeting
-# end
+function fish_greeting
+end
 
 alias ls="eza --icons"
 alias ll="eza -la --group-directories-first --icons"
@@ -31,4 +31,4 @@ end
 alias proxy="export all_proxy=127.0.0.1:12334;export http_proxy=127.0.0.1:12334;export https_proxy=127.0.0.1:12334"
 
 # set PATH of Doom emacs
-# alias doom="/home/acomage/.config/emacs/bin/doom"
+alias doom="/home/acomage/.config/emacs/bin/doom"
