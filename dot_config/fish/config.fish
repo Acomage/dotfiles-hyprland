@@ -3,23 +3,6 @@
 function fish_greeting
 end
 
-function fish_prompt --description 'Write out the prompt'
-    set -l last_status $status
-    set -l normal (set_color normal)
-    set -l status_color (set_color brgreen)
-    set -l prompt_status ""
-    set -q fish_prompt_pwd_dir_length
-    or set -lx fish_prompt_pwd_dir_length 0
-    set -l suffix '❯'
-    if test $last_status -ne 0
-        set status_color (set_color $fish_color_error)
-        set prompt_status $status_color "[" $last_status "]" $normal
-    end
-    echo ''
-    echo -s (prompt_pwd) (fish_vcs_prompt)
-    echo -n -s $status_color $suffix ' ' $normal
-end
-
 alias ls="eza --icons"
 alias ll="eza -la --group-directories-first --icons"
 alias lt="eza -aT --group-directories-first --icons --ignore-glob=".git""
