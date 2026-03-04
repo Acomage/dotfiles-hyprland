@@ -4,15 +4,15 @@
   "height": 36,
   "margin": "5 5 0 5",
   "modules-left": [
+    "hyprland/workspaces",
     "hyprland/window"
   ],
   "modules-center": [
-    "cpu",
-    "memory",
-    "hyprland/workspaces",
     "clock"
   ],
   "modules-right": [
+    "cpu",
+    "memory",
     "network",
     "tray",
     "pulseaudio",
@@ -45,9 +45,6 @@
       "empty": " ●",
       "default": ""
     },
-    "persistent-workspaces": {
-      "*": 10
-    }
   },
   "clock": {
     "format": "  {:L%H:%M %a %b%d日}",

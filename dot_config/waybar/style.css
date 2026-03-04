@@ -6,20 +6,29 @@
 }
 
 window#waybar {
-  background: rgba(21, 21, 21, 0.7);
+  background: rgba(50, 50, 100, 0.7);
   border-radius: 20px;
   margin: 5px 10px;
   padding: 4px 8px;
-  color: #d9bcef;
+  color: #f5c2e7;
   border: 1px solid rgba(217, 188, 239, 0.1);
   background-clip: padding-box;
 }
 
+#workspaces {
+  padding: 0 6px;
+  margin: 6px 6px;
+  border-radius: 16px;
+  background: rgba(49, 50, 68, 0.55);
+  color: #d9bcef;
+  transition: background 0.3s ease;
+}
+
 #workspaces button {
-  min-width: 28px;
-  min-height: 28px;
+  min-width: 15px;
+  min-height: 15px;
   margin: 6px 2px;
-  padding: 2px 4px 2px 0px;
+  padding: 0px 4px 0px 0px;
   border-radius: 50%;
   background: rgba(49, 50, 68, 0.3);
   color: #d9bcef;
@@ -50,6 +59,7 @@ window#waybar {
   transition: background 0.3s ease;
 }
 
+#workspaces:hover,
 #pulseaudio:hover,
 #network:hover,
 #cpu:hover,
@@ -59,7 +69,6 @@ window#waybar {
 #tray:hover {
   background: rgba(203, 166, 247, 0.3);
 }
-
 
 #clock {
   font-weight: bold;
@@ -79,8 +88,8 @@ window#waybar {
   margin: 6px 6px;
 }
 
-#window {
-  margin-left: 20px;
+#workspaces {
+  margin-left: 10px;
 }
 
 #custom-session {

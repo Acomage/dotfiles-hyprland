@@ -10,6 +10,7 @@ alias lt="eza -aT --group-directories-first --icons --ignore-glob=".git""
 abbr update "sudo pacman -Syu"
 
 abbr n nvim
+abbr h helix
 abbr c clear
 
 export EDITOR=nvim
@@ -28,7 +29,7 @@ function rm
     trash-put $argv
 end
 
-alias proxy="export all_proxy=127.0.0.1:12334;export http_proxy=127.0.0.1:12334;export https_proxy=127.0.0.1:12334"
+alias proxy="export all_proxy=127.0.0.1:7897;export http_proxy=127.0.0.1:7897;export https_proxy=127.0.0.1:7897"
 
 # set PATH of Doom emacs
 alias doom="/home/acomage/.config/emacs/bin/doom"
