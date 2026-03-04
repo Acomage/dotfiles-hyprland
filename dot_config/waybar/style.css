@@ -27,21 +27,19 @@ window#waybar {
 #workspaces button {
   min-width: 15px;
   min-height: 15px;
-  margin: 6px 2px;
   padding: 0px 4px 0px 0px;
-  border-radius: 50%;
-  background: rgba(49, 50, 68, 0.3);
+  background: rgba(49, 50, 68, 0.55);
   color: #d9bcef;
   transition: all 0.3s ease;
 }
 
 #workspaces button.active {
-  background: linear-gradient(135deg, rgba(203,166,247,0.7), rgba(137,180,250,0.6));
+  background: rgba(49, 50, 68, 0.55);
   color: #f5c2e7;
 }
 
 #workspaces button:hover {
-  background: rgba(203, 166, 247, 0.3);
+  color: #ffccf2;
 }
 
 #pulseaudio,
@@ -59,7 +57,6 @@ window#waybar {
   transition: background 0.3s ease;
 }
 
-#workspaces:hover,
 #pulseaudio:hover,
 #network:hover,
 #cpu:hover,
